@@ -6,10 +6,6 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-bytes = "1.4.0"
-futures-util = "0.3.28"
-reqwest = { version = "0.11.18", features = ["blocking", "stream"] }
-symphonia = "0.5.3"
 tokio = { version = "1.29.1", features = ["full"] }
 stream-download = { git = "https://github.com/aschey/stream-download-rs" }
 rodio = "0.17.1"
